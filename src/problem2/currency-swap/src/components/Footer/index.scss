@@ -1,0 +1,8 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.footer {
+  &__text {
+    @include text(1.5rem, $gray);
+  }
+}
