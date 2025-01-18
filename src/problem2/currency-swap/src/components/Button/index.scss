@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+
+.ant-btn.base-btn{
+  font-size: 2rem;
+  font-weight: 600;
+  height: 4rem;
+  padding: 0 1rem;
+  border-radius: $btn-border-radius;
+
+  &:focus{
+    border: none;
+    outline: none;
+  }
+}

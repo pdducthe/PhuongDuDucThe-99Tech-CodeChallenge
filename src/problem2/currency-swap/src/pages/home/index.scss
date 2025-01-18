@@ -1,6 +1,21 @@
-.home{
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  justify-content: space-between;
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.home {
+  &__title {
+    @include text(4.25rem, $blue, 600);
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  &__form {
+    margin-top: 4rem;
+
+    &>.ant-form{
+
+      &>.form-wrapper {
+        display: flex;
+      }
+    }
+  }
 }

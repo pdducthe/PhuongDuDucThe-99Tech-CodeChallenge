@@ -1,7 +1,14 @@
-import './index.scss';
+import "./index.scss";
+import { Button, ButtonProps } from "antd";
 
-export default function BaseButton() {
+
+export default function BaseButton(props: ButtonProps) {
+  const { children, className, ...rest } = props;
+  const customClassName = className ? `${className} base-btn` : "base-btn";
+
   return (
-    <div>BaseButton</div>
-  )
+    <Button {...rest} className={customClassName}>
+      {children}
+    </Button>
+  );
 }

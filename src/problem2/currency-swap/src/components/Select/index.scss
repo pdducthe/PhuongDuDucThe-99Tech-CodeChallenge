@@ -1,0 +1,12 @@
+@import "../../styles/variables";
+
+.ant-select.base-select {
+  height: $input-height;
+
+  .ant-select-selector {
+    font-size: $input-font-size;
+  }
+  .ant-select-arrow{
+    font-size: 1.8rem;
+  }
+}

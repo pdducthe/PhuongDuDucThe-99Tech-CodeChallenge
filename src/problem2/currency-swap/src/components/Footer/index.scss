@@ -3,6 +3,7 @@
 
 .footer {
   &__text {
+    text-align: center;
     @include text(1.5rem, $gray);
   }
 }

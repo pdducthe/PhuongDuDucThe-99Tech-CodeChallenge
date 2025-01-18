@@ -1,0 +1,7 @@
+@import '../../styles/variables';
+
+.base-input.ant-input-affix-wrapper {
+  height: $input-height;
+  font-size: $input-font-size;
+  font-weight: 500;
+}
